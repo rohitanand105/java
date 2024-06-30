@@ -42,6 +42,8 @@ public class queue {
                     return front;
                 }
 
+
+
         public static int peek() {
             if (isEmpty()) {
                 System.out.println("empty queue");
@@ -59,6 +61,7 @@ public class queue {
         q.add(3);
         System.out.println(q.remove());
         System.out.println(q.peek());
+        System.out.println("this is new queue data structure.");
     }
 }
 
