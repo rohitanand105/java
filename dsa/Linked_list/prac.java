@@ -2,6 +2,11 @@ package dsa.Linked_list;
 
 class ll {
     Node head;
+    private int size;
+
+    ll(){
+        this.size = 0;
+    }
 
     class Node {
         String data;
@@ -10,6 +15,7 @@ class ll {
         Node(String data) {
             this.data = data;
             this.next = null;
+            size++;
 
         }
 
@@ -55,7 +61,39 @@ class ll {
 
     }
 
-    public void delete() {
+    public void deleteFirst() {
+        if(head == null){
+            System.out.print("the list is empty");
+            return;
+        }
+        size--;
+        head = head.next;
+
+
+    }
+    public void deletelast(){
+        if(head == null){
+            System.out.print("the list is empty");
+            return;
+        }
+        if (head.next == null ){
+            head = null;
+            return;
+        }
+        size--;
+        Node secondLast = head;
+        Node lastNode = head.next;
+        while(lastNode.next != null){
+            lastNode = lastNode.next;
+            secondLast = secondLast.next;
+
+        }
+
+        secondLast.next = null;
+
+    }
+    public int getSize() {
+        return size;
 
     }
 
@@ -71,6 +109,9 @@ public class prac {
         list.addLast("there");
 
         list.printlist();
+
+        System.out.println(list.getSize());
+
 
     }
 }
