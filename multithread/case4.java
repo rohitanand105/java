@@ -3,10 +3,10 @@
 // First thread
 class Mythread1 extends Thread {
     // Override the run method
-    
+
     public void run() {
         System.out.print("First set\n");
-        
+
     }
 }
 
@@ -28,7 +28,7 @@ class Mythread3 extends Thread {
 
 public class case4 {
 
-    public static void main(String args[]) {    
+    public static void main(String args[]) {
         // Create an object of the First thread.
         Mythread1 first = new Mythread1();
 
