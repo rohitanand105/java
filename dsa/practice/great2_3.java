@@ -1,5 +1,5 @@
 
-public class great2 {
+public class great2_3 {
 
     public static void main(String args[]) {
         int a = 400;

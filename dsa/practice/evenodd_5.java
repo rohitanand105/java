@@ -1,4 +1,4 @@
-public class evenodd {
+public class evenodd_5 {
     public static void main(String args[]){
         int a = 28;
 

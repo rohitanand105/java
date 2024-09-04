@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class stock_buy_sell {
+public class stock_buy_sell_2 {
     public static void main(String args[]){
         int prices[]  = new int[6];
         Scanner scan = new Scanner(System.in);

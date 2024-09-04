@@ -1,6 +1,6 @@
 
 
-public class great3 {
+public class great3_4 {
     public static void main(String args[]){
         int a = 100, b = 100, c = 100;
 

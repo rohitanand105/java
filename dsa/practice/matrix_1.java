@@ -1,6 +1,6 @@
 import java.util.*;
 // Problem Statement: Set Matrix Zero.
-public class matrix {
+public class matrix_1 {
     public static void main(String args[]) {
         // Create an matrix of 3 x 4
         int matrix[][] = new int[3][4];
